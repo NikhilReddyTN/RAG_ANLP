@@ -33,6 +33,8 @@ def should_scrape(url, base_url):
     - Only scrape visitpittsburgh.com URLs that are part of the 'marathons-runs-walks' section.
     - External URLs are scraped but not followed.
     """
+    if not url.startswith("https://www.visitpittsburgh.com"):
+        return False
     # Only scrape visitpittsburgh.com URLs that are part of the 'marathons-runs-walks' section
     return url.startswith(base_url)
 
@@ -73,7 +75,7 @@ def scrape_page(url, base_url, visited_urls, events):
         # Only scrape if the URL passes the filter
         if should_scrape(full_url, base_url):
             scrape_page(full_url, base_url, visited_urls, events)
-        elif not full_url.startswith(base_url):
+        elif not full_url.startswith("https://www.visitpittsburgh.com"):
             # Scrape external URLs but do not follow them
             if full_url not in visited_urls:
                 scrape_external_page(full_url, visited_urls, events)
