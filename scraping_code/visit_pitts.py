@@ -5,13 +5,6 @@ import time
 import json
 import re
 
-# Set the base URL
-# base_url = "https://www.visitpittsburgh.com/events-festivals/marathons-runs-walks/"
-# visited_urls = set()
-
-# # List to store scraped event data
-# event_data = []
-
 def clean_text(soup):
     # Remove unwanted elements
     for element in soup(["nav", "footer", "script", "style"]):
