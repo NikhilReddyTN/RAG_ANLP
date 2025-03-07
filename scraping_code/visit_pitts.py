@@ -6,7 +6,7 @@ import json
 import re
 
 # Set the base URL
-base_url = "# your base website here"
+base_url = "https://www.visitpittsburgh.com/events-festivals/marathons-runs-walks/"
 visited_urls = set()
 
 # List to store scraped event data
@@ -37,11 +37,11 @@ def clean_text(soup):
 def should_scrape(url):
     """
     Determine whether a URL should be scraped.
-    - Always scrape external URLs.
     - Only scrape visitpittsburgh.com URLs that are part of the 'marathons-runs-walks' section.
+    - External URLs are scraped but not followed.
     """
-    if not url.startswith("# your base website here"):
-        return True  # Scrape all external URLs
+    if not url.startswith("https://www.visitpittsburgh.com"):
+        return False  # Do not scrape external URLs further
     # Only scrape visitpittsburgh.com URLs that are part of the 'marathons-runs-walks' section
     return url.startswith(base_url)
 
@@ -82,6 +82,43 @@ def scrape_page(url):
         # Only scrape if the URL passes the filter
         if should_scrape(full_url):
             scrape_page(full_url)
+        elif not full_url.startswith("https://www.visitpittsburgh.com"):
+            # Scrape external URLs but do not follow them
+            if full_url not in visited_urls:
+                scrape_external_page(full_url)
+
+    # Be polite: add a delay between requests
+    time.sleep(1)
+
+def scrape_external_page(url):
+    # Skip if already visited
+    if url in visited_urls:
+        return
+    visited_urls.add(url)
+
+    # Fetch the external page
+    print(f"Scraping external page: {url}")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an error for bad status codes
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to retrieve {url}: {e}")
+        return
+
+    # Parse the external page
+    soup = BeautifulSoup(response.text, "lxml")
+
+    # Clean the text
+    cleaned_paragraphs = clean_text(soup)
+
+    # Save the cleaned data to the list
+    title = soup.title.string if soup.title else "No Title"
+    content = "\n".join(cleaned_paragraphs)
+    event_data.append({
+        "url": url,
+        "title": title,
+        "content": content
+    })
 
     # Be polite: add a delay between requests
     time.sleep(1)
@@ -90,7 +127,7 @@ def scrape_page(url):
 scrape_page(base_url)
 
 # Save the scraped data to a JSON file
-with open("#xxxxx.json", "w", encoding="utf-8") as file:
+with open("scraped_data.json", "w", encoding="utf-8") as file:
     json.dump(event_data, file, ensure_ascii=False, indent=4)
 
 print("Scraping completed. Data saved to 'scraped_data.json'.")
