@@ -6,11 +6,11 @@ import json
 import re
 
 # Set the base URL
-base_url = "https://www.visitpittsburgh.com/events-festivals/marathons-runs-walks/"
-visited_urls = set()
+# base_url = "https://www.visitpittsburgh.com/events-festivals/marathons-runs-walks/"
+# visited_urls = set()
 
-# List to store scraped event data
-event_data = []
+# # List to store scraped event data
+# event_data = []
 
 def clean_text(soup):
     # Remove unwanted elements
@@ -34,18 +34,16 @@ def clean_text(soup):
 
     return filtered_paragraphs
 
-def should_scrape(url):
+def should_scrape(url, base_url):
     """
     Determine whether a URL should be scraped.
     - Only scrape visitpittsburgh.com URLs that are part of the 'marathons-runs-walks' section.
     - External URLs are scraped but not followed.
     """
-    if not url.startswith("https://www.visitpittsburgh.com"):
-        return False  # Do not scrape external URLs further
     # Only scrape visitpittsburgh.com URLs that are part of the 'marathons-runs-walks' section
     return url.startswith(base_url)
 
-def scrape_page(url):
+def scrape_page(url, base_url, visited_urls, events):
     # Skip if already visited
     if url in visited_urls:
         return
@@ -69,7 +67,7 @@ def scrape_page(url):
     # Save the cleaned data to the list
     title = soup.title.string if soup.title else "No Title"
     content = "\n".join(cleaned_paragraphs)
-    event_data.append({
+    events.append({
         "url": url,
         "title": title,
         "content": content
@@ -80,17 +78,17 @@ def scrape_page(url):
         full_url = urljoin(base_url, link["href"])
 
         # Only scrape if the URL passes the filter
-        if should_scrape(full_url):
-            scrape_page(full_url)
-        elif not full_url.startswith("https://www.visitpittsburgh.com"):
+        if should_scrape(full_url, base_url):
+            scrape_page(full_url, base_url, visited_urls, events)
+        elif not full_url.startswith(base_url):
             # Scrape external URLs but do not follow them
             if full_url not in visited_urls:
-                scrape_external_page(full_url)
+                scrape_external_page(full_url, visited_urls, events)
 
     # Be polite: add a delay between requests
     time.sleep(1)
 
-def scrape_external_page(url):
+def scrape_external_page(url, visited_urls, events):
     # Skip if already visited
     if url in visited_urls:
         return
@@ -114,7 +112,7 @@ def scrape_external_page(url):
     # Save the cleaned data to the list
     title = soup.title.string if soup.title else "No Title"
     content = "\n".join(cleaned_paragraphs)
-    event_data.append({
+    events.append({
         "url": url,
         "title": title,
         "content": content
@@ -124,10 +122,17 @@ def scrape_external_page(url):
     time.sleep(1)
 
 # Start scraping from the base URL
-scrape_page(base_url)
+def main(base_url, json_name):
+    visited_urls = set()
+    events = []
 
-# Save the scraped data to a JSON file
-with open("scraped_data.json", "w", encoding="utf-8") as file:
-    json.dump(event_data, file, ensure_ascii=False, indent=4)
+    scrape_page(base_url, base_url, visited_urls, events)
+    with open(json_name, "w", encoding="utf-8") as file:
+        json.dump(events, file, ensure_ascii=False, indent=4)
 
-print("Scraping completed. Data saved to 'scraped_data.json'.")
+    print("Scraping completed. Data saved to 'scraped_data.json'.")
+
+if __name__ == "__main__":
+    base_url = input("Enter the base url: ")
+    json_name = input("Enter the output json file name: ")
+    main(base_url, json_name)
