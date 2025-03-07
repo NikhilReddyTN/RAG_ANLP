@@ -130,7 +130,7 @@ def main(base_url, json_name):
     with open(json_name, "w", encoding="utf-8") as file:
         json.dump(events, file, ensure_ascii=False, indent=4)
 
-    print("Scraping completed. Data saved to 'scraped_data.json'.")
+    print(f"Scraping completed. Data saved to {json_name}.")
 
 if __name__ == "__main__":
     base_url = input("Enter the base url: ")
