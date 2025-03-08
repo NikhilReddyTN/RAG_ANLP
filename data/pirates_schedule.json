@@ -1,0 +1,1154 @@
+[
+    {
+        "Date": "02/22/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "02/23/25",
+        "Time": "01:05 PM",
+        "Opponent": "Twins",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "02/25/25",
+        "Time": "01:05 PM",
+        "Opponent": "Braves",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "02/26/25",
+        "Time": "01:05 PM",
+        "Opponent": "Orioles",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "02/26/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "02/27/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "02/28/25",
+        "Time": "01:05 PM",
+        "Opponent": "Rays",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/01/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/02/25",
+        "Time": "01:05 PM",
+        "Opponent": "Tigers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/03/25",
+        "Time": "06:35 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/04/25",
+        "Time": "01:05 PM",
+        "Opponent": "Red Sox",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/05/25",
+        "Time": "01:05 PM",
+        "Opponent": "Blue Jays",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/06/25",
+        "Time": "06:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/07/25",
+        "Time": "01:05 PM",
+        "Opponent": "Phillies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/08/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/09/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/10/25",
+        "Time": "06:05 PM",
+        "Opponent": "Orioles",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/11/25",
+        "Time": "01:05 PM",
+        "Opponent": "Yankees",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/13/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/14/25",
+        "Time": "06:05 PM",
+        "Opponent": "Tigers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/15/25",
+        "Time": "01:05 PM",
+        "Opponent": "Orioles",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/16/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/17/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/17/25",
+        "Time": "01:05 PM",
+        "Opponent": "Twins",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/18/25",
+        "Time": "01:05 PM",
+        "Opponent": "Phillies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/19/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/21/25",
+        "Time": "06:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/22/25",
+        "Time": "01:05 PM",
+        "Opponent": "Orioles",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "03/23/25",
+        "Time": "01:07 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/24/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/27/25",
+        "Time": "04:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/28/25",
+        "Time": "07:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/29/25",
+        "Time": "04:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/30/25",
+        "Time": "01:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "03/31/25",
+        "Time": "07:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/01/25",
+        "Time": "07:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/02/25",
+        "Time": "01:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/04/25",
+        "Time": "04:12 PM",
+        "Opponent": "Yankees",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/05/25",
+        "Time": "04:05 PM",
+        "Opponent": "Yankees",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/06/25",
+        "Time": "01:35 PM",
+        "Opponent": "Yankees",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/07/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cardinals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/08/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cardinals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/09/25",
+        "Time": "12:35 PM",
+        "Opponent": "Cardinals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/11/25",
+        "Time": "06:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/12/25",
+        "Time": "06:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/13/25",
+        "Time": "01:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/14/25",
+        "Time": "06:40 PM",
+        "Opponent": "Nationals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/15/25",
+        "Time": "06:40 PM",
+        "Opponent": "Nationals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/16/25",
+        "Time": "06:40 PM",
+        "Opponent": "Nationals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/17/25",
+        "Time": "12:35 PM",
+        "Opponent": "Nationals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/18/25",
+        "Time": "06:40 PM",
+        "Opponent": "Guardians",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/19/25",
+        "Time": "04:05 PM",
+        "Opponent": "Guardians",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/20/25",
+        "Time": "01:35 PM",
+        "Opponent": "Guardians",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/22/25",
+        "Time": "09:38 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/23/25",
+        "Time": "09:38 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/24/25",
+        "Time": "09:29 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/25/25",
+        "Time": "10:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/26/25",
+        "Time": "09:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/27/25",
+        "Time": "04:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "04/29/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cubs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "04/30/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cubs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/01/25",
+        "Time": "12:35 PM",
+        "Opponent": "Cubs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/02/25",
+        "Time": "06:40 PM",
+        "Opponent": "Padres",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/03/25",
+        "Time": "04:05 PM",
+        "Opponent": "Padres",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/04/25",
+        "Time": "01:35 PM",
+        "Opponent": "Padres",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/05/25",
+        "Time": "07:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/06/25",
+        "Time": "07:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/07/25",
+        "Time": "01:15 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/09/25",
+        "Time": "06:40 PM",
+        "Opponent": "Braves",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/10/25",
+        "Time": "04:05 PM",
+        "Opponent": "Braves",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/11/25",
+        "Time": "01:35 PM",
+        "Opponent": "Braves",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/12/25",
+        "Time": "07:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/13/25",
+        "Time": "07:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/14/25",
+        "Time": "07:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/16/25",
+        "Time": "06:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/17/25",
+        "Time": "06:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/18/25",
+        "Time": "01:35 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/19/25",
+        "Time": "06:40 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/20/25",
+        "Time": "06:40 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/21/25",
+        "Time": "12:35 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/22/25",
+        "Time": "06:40 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/23/25",
+        "Time": "06:40 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/24/25",
+        "Time": "04:05 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/25/25",
+        "Time": "01:35 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "05/26/25",
+        "Time": "08:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/27/25",
+        "Time": "09:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/28/25",
+        "Time": "03:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/30/25",
+        "Time": "09:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "05/31/25",
+        "Time": "09:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/01/25",
+        "Time": "05:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/03/25",
+        "Time": "06:40 PM",
+        "Opponent": "Astros",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/04/25",
+        "Time": "06:40 PM",
+        "Opponent": "Astros",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/05/25",
+        "Time": "06:40 PM",
+        "Opponent": "Astros",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/06/25",
+        "Time": "06:40 PM",
+        "Opponent": "Phillies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/07/25",
+        "Time": "04:05 PM",
+        "Opponent": "Phillies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/08/25",
+        "Time": "01:35 PM",
+        "Opponent": "Phillies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/09/25",
+        "Time": "06:40 PM",
+        "Opponent": "Marlins",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/10/25",
+        "Time": "06:40 PM",
+        "Opponent": "Marlins",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/11/25",
+        "Time": "12:35 PM",
+        "Opponent": "Marlins",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/12/25",
+        "Time": "08:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/13/25",
+        "Time": "02:20 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/14/25",
+        "Time": "02:20 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/15/25",
+        "Time": "02:20 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/17/25",
+        "Time": "06:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/18/25",
+        "Time": "06:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/19/25",
+        "Time": "01:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/20/25",
+        "Time": "06:40 PM",
+        "Opponent": "Rangers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/21/25",
+        "Time": "04:05 PM",
+        "Opponent": "Rangers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/22/25",
+        "Time": "01:35 PM",
+        "Opponent": "Rangers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/23/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/24/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/25/25",
+        "Time": "02:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "06/27/25",
+        "Time": "06:40 PM",
+        "Opponent": "Mets",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/28/25",
+        "Time": "04:05 PM",
+        "Opponent": "Mets",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/29/25",
+        "Time": "01:35 PM",
+        "Opponent": "Mets",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "06/30/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cardinals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/01/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cardinals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/02/25",
+        "Time": "12:35 PM",
+        "Opponent": "Cardinals",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/04/25",
+        "Time": "04:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/05/25",
+        "Time": "10:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/06/25",
+        "Time": "04:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/07/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/08/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/09/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/11/25",
+        "Time": "08:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/12/25",
+        "Time": "02:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/13/25",
+        "Time": "02:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/18/25",
+        "Time": "06:40 PM",
+        "Opponent": "White Sox",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/19/25",
+        "Time": "06:40 PM",
+        "Opponent": "White Sox",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/20/25",
+        "Time": "01:35 PM",
+        "Opponent": "White Sox",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/21/25",
+        "Time": "06:40 PM",
+        "Opponent": "Tigers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/22/25",
+        "Time": "06:40 PM",
+        "Opponent": "Tigers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/23/25",
+        "Time": "12:35 PM",
+        "Opponent": "Tigers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/25/25",
+        "Time": "06:40 PM",
+        "Opponent": "D-backs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/26/25",
+        "Time": "06:40 PM",
+        "Opponent": "D-backs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/27/25",
+        "Time": "01:35 PM",
+        "Opponent": "D-backs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "07/28/25",
+        "Time": "09:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/29/25",
+        "Time": "09:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "07/30/25",
+        "Time": "03:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/01/25",
+        "Time": "08:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/02/25",
+        "Time": "03:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/03/25",
+        "Time": "03:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/04/25",
+        "Time": "06:40 PM",
+        "Opponent": "Giants",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/05/25",
+        "Time": "06:40 PM",
+        "Opponent": "Giants",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/06/25",
+        "Time": "12:35 PM",
+        "Opponent": "Giants",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/07/25",
+        "Time": "06:40 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/08/25",
+        "Time": "06:40 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/09/25",
+        "Time": "06:40 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/10/25",
+        "Time": "01:35 PM",
+        "Opponent": "Reds",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/11/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/12/25",
+        "Time": "07:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/13/25",
+        "Time": "02:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/15/25",
+        "Time": "02:20 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/16/25",
+        "Time": "02:20 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/17/25",
+        "Time": "02:20 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/18/25",
+        "Time": "06:40 PM",
+        "Opponent": "Blue Jays",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/19/25",
+        "Time": "06:40 PM",
+        "Opponent": "Blue Jays",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/20/25",
+        "Time": "12:35 PM",
+        "Opponent": "Blue Jays",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/22/25",
+        "Time": "06:40 PM",
+        "Opponent": "Rockies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/23/25",
+        "Time": "06:40 PM",
+        "Opponent": "Rockies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/24/25",
+        "Time": "12:05 PM",
+        "Opponent": "Rockies",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "08/25/25",
+        "Time": "07:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/26/25",
+        "Time": "07:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/27/25",
+        "Time": "07:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/28/25",
+        "Time": "02:15 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/29/25",
+        "Time": "07:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/30/25",
+        "Time": "04:10 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "08/31/25",
+        "Time": "01:35 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/02/25",
+        "Time": "06:40 PM",
+        "Opponent": "Dodgers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/03/25",
+        "Time": "06:40 PM",
+        "Opponent": "Dodgers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/04/25",
+        "Time": "06:40 PM",
+        "Opponent": "Dodgers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/05/25",
+        "Time": "06:40 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/06/25",
+        "Time": "06:40 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/07/25",
+        "Time": "01:35 PM",
+        "Opponent": "Brewers",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/09/25",
+        "Time": "06:35 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/10/25",
+        "Time": "06:35 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/11/25",
+        "Time": "01:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/12/25",
+        "Time": "06:45 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/13/25",
+        "Time": "04:05 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/14/25",
+        "Time": "01:35 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/15/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cubs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/16/25",
+        "Time": "06:40 PM",
+        "Opponent": "Cubs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/17/25",
+        "Time": "12:35 PM",
+        "Opponent": "Cubs",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/19/25",
+        "Time": "06:40 PM",
+        "Opponent": "Athletics",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/20/25",
+        "Time": "06:40 PM",
+        "Opponent": "Athletics",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/21/25",
+        "Time": "01:35 PM",
+        "Opponent": "Athletics",
+        "Home/Away": "Home"
+    },
+    {
+        "Date": "09/23/25",
+        "Time": "06:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/24/25",
+        "Time": "06:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/25/25",
+        "Time": "12:40 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/26/25",
+        "Time": "07:15 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/27/25",
+        "Time": "07:15 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    },
+    {
+        "Date": "09/28/25",
+        "Time": "03:15 PM",
+        "Opponent": "Pirates",
+        "Home/Away": "Away"
+    }
+]
