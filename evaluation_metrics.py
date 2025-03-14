@@ -64,5 +64,3 @@ def metrics(json1, json2):
     avg_recall = sum(ans_recall) / len(ans_recall) if ans_recall else 0
 
     return avg_recall, avg_f1_scores, em
-
-print(metrics("answers.json", "reference_answers.json"))
