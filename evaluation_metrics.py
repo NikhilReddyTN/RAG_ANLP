@@ -9,9 +9,11 @@ def standardize(str1, str2, stops):
     str2 = str2.lower()
 
     text1 = re.sub(r'[^\w\s]', '', str1)
+    text1 = re.sub(r'[\\/\n]', '', text1)
     text1 = re.sub(r'\s+', ' ', text1).strip()
 
     text2 = re.sub(r'[^\w\s]', '', str2)
+    text2 = re.sub(r'[\\/\n]', '', text2)
     text2 = re.sub(r'\s+', ' ', text2).strip()
 
     stopWords = set(stopwords.words('english'))
@@ -26,6 +28,7 @@ def standardize(str1, str2, stops):
 
 def metrics(json1, json2):
     nltk.download('stopwords')
+    nltk.download('punkt_tab')
     stops = set(stopwords.words('english'))
 
     with open(json1, "r", encoding="utf-8") as file1:
@@ -38,14 +41,16 @@ def metrics(json1, json2):
     ans_recall = []
     total_checks = len(expected)
     for num in answers:
-        word1, word2 = standardize(answers[num][0], expected[num])
-        if "".join(word1) == "".join(word2):
-            exact_matches += 1
-
+        # print(expected[num], answers[num])
+        word1, word2 = standardize(answers[num], expected[num][0], stops)
+        
         overlapping = 0
         for w in word1:
             if w in word2:
                 overlapping += 1
+        
+        if overlapping == len(word2):
+            exact_matches += 1
         
         precision = overlapping / len(word1) if word1 else 0
         recall = overlapping / len(word2) if word2 else 0
@@ -60,5 +65,4 @@ def metrics(json1, json2):
 
     return avg_recall, avg_f1_scores, em
 
-
-
+print(metrics("answers.json", "reference_answers.json"))
