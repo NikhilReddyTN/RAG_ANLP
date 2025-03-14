@@ -10,7 +10,6 @@ import json
 import pandas as pd
 
 def get_soup(url):
-    """Fetch page content and return BeautifulSoup object."""
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
@@ -18,7 +17,6 @@ def get_soup(url):
     return None
 
 def get_selenium_soup(url):
-    """Use Selenium to render JavaScript-heavy pages and return BeautifulSoup object."""
     options = Options()
     options.add_argument('--headless')
     driver = webdriver.Chrome(options=options)
@@ -31,11 +29,9 @@ def get_selenium_soup(url):
 def get_team_schedule():
     df = pd.read_csv('../input/pirates_games.csv')
 
-    # Extract date, time, opponent, and home/away status
     game_info = []
 
     for _, row in df.iterrows():
-        # Split the opponent and home/away information from the subject
         subject = row['SUBJECT']
         date = row['START DATE']
         time = row['START TIME']
@@ -56,12 +52,10 @@ def get_team_schedule():
     return game_info
 
 def get_other_static_info():
-    """Scrape other relevant static information."""
     base_url = "https://www.mlb.com/pirates"
     soup = get_soup(base_url)
     static_info = []
     
-    # Identify subpages
     links = set()
     for a in soup.find_all('a', href=True):
         href = a['href']
@@ -69,11 +63,9 @@ def get_other_static_info():
             full_url = urljoin(base_url, href)
             links.add(full_url)
     
-    # Scrape each subpage once
     for link in links:
         sub_soup = get_soup(link)
         if sub_soup:
-            # Organize the static information in a more meaningful structure
             page_title = sub_soup.title.text.strip() if sub_soup.title else "No Title"
             page_content = sub_soup.get_text(separator=' ', strip=True)
             
