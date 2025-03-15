@@ -8,17 +8,11 @@ import re
 def clean_text(soup):
     for element in soup(["nav", "footer", "script", "style"]):
         element.decompose()
-
     text = soup.get_text()
-
     text = re.sub(r"\s+", " ", text).strip()
-
     text = re.sub(r"[\n\t\r]", " ", text)
-
     paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
-
     filtered_paragraphs = [p for p in paragraphs if len(p.split()) > 10]
-
     return filtered_paragraphs
 
 def should_scrape(url, base_url):
@@ -40,9 +34,7 @@ def scrape_page(url, base_url, visited_urls, events):
         return
 
     soup = BeautifulSoup(response.text, "lxml")
-
     cleaned_paragraphs = clean_text(soup)
-
     title = soup.title.string if soup.title else "No Title"
     content = "\n".join(cleaned_paragraphs)
     events.append({
@@ -53,7 +45,6 @@ def scrape_page(url, base_url, visited_urls, events):
 
     for link in soup.find_all("a", href=True):
         full_url = urljoin(base_url, link["href"])
-
         if should_scrape(full_url, base_url):
             scrape_page(full_url, base_url, visited_urls, events)
         elif not full_url.startswith("https://www.visitpittsburgh.com"):
@@ -66,7 +57,6 @@ def scrape_external_page(url, visited_urls, events):
     if url in visited_urls:
         return
     visited_urls.add(url)
-
     print(f"Scraping external page: {url}")
     try:
         response = requests.get(url)
@@ -86,7 +76,6 @@ def scrape_external_page(url, visited_urls, events):
         "title": title,
         "content": content
     })
-
     time.sleep(1)
 
 def main(base_url, json_name):
