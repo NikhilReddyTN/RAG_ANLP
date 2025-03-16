@@ -1,0 +1,302 @@
+{
+    "1": [
+        "New York Rangers"
+    ],
+    "2": [
+        "No"
+    ],
+    "3": [
+        "Yes"
+    ],
+    "4": [
+        "No"
+    ],
+    "5": [
+        "Yes"
+    ],
+    "6": [
+        "Montreal Canadiens"
+    ],
+    "7": [
+        "Washington Capitals"
+    ],
+    "8": [
+        "Yes"
+    ],
+    "9": [
+        "Boston Bruins"
+    ],
+    "10": [
+        "Yes"
+    ],
+    "11": [
+        "New Jersey Devils"
+    ],
+    "12": [
+        "Yes"
+    ],
+    "13": [
+        "Detroit Red Wings"
+    ],
+    "14": [
+        "No"
+    ],
+    "15": [
+        "Edmonton Oilers"
+    ],
+    "16": [
+        "Washington Capitals"
+    ],
+    "17": [
+        "No"
+    ],
+    "18": [
+        "Los Angeles Kings"
+    ],
+    "19": [
+        "Anaheim Ducks"
+    ],
+    "20": [
+        "No"
+    ],
+    "21": [
+        "Here to Stay: Celebrating 40 Years at the Architecture Archives"
+    ],
+    "22": [
+        "March 6 - April 12, 2025"
+    ],
+    "23": [
+        "LGBTQIA+ Support and Social Group"
+    ],
+    "24": [
+        "College of Fine Arts 111"
+    ],
+    "25": [
+        "$250"
+    ],
+    "26": [
+        "Paws to Relax: Weekly Pet Therapy Program"
+    ],
+    "27": [
+        "11:30 a.m. - 1 p.m."
+    ],
+    "28": [
+        "3 - 6 p.m."
+    ],
+    "29": [
+        "Black Women\u2019s Support Group (Graduate Students)"
+    ],
+    "30": [
+        "(Men\u2019s Tennis) Allegheny vs. #21 Carnegie Mellon"
+    ],
+    "31": [
+        "February 1 - 28, 2025"
+    ],
+    "32": [
+        "January 1, 2025"
+    ],
+    "33": [
+        "University Closed"
+    ],
+    "34": [
+        "Independence Day; University Closed & No Classes"
+    ],
+    "35": [
+        "2 p.m. and 8 p.m."
+    ],
+    "36": [
+        "Beltane"
+    ],
+    "37": [
+        "Jewish American Heritage Month"
+    ],
+    "38": [
+        "Snackified and Cozy Study Jams!"
+    ],
+    "39": [
+        "Black Women\u2019s Support Group (Graduate Students)"
+    ],
+    "40": [
+        "The Great American Banana Split Celebration"
+    ],
+    "41": [
+        "It began in 2013"
+    ],
+    "42": [
+        "candy bar bingo"
+    ],
+    "43": [
+        "It's the Sweetest Thing to Come from Latrobe!"
+    ],
+    "44": [
+        "4400 Forbes Avenue, Pittsburgh, PA 15213"
+    ],
+    "45": [
+        "Gertrude Abercrombie: The Whole World Is a Mystery"
+    ],
+    "46": [
+        "Gertrude Abercrombie"
+    ],
+    "47": [
+        "10:00 am \u2013 5:00 pm"
+    ],
+    "48": [
+        "Buhl Planetarium shows"
+    ],
+    "49": [
+        "Approximately 2 hours and 15 minutes"
+    ],
+    "50": [
+        "3534"
+    ],
+    "51": [
+        "102"
+    ],
+    "52": [
+        "Test optional"
+    ],
+    "53": [
+        "Commencement Fair"
+    ],
+    "54": [
+        "To bring together CMU students, families, and friends for a weekend of events"
+    ],
+    "55": [
+        "Pittsburgh"
+    ],
+    "56": [
+        "Order of the May Recognition and Celebration"
+    ],
+    "57": [
+        "By Friday, March 28"
+    ],
+    "58": [
+        "2:00 pm to 9:00 pm"
+    ],
+    "59": [
+        "By March 25 at 11:59 pm"
+    ],
+    "60": [
+        "Teruko Yata Memorial Lecture in Robotics"
+    ],
+    "61": [
+        "Computer Science Thesis Oral"
+    ],
+    "62": [
+        "Newell-Simon 4305 and Zoom"
+    ],
+    "63": [
+        "Unlocking Potential: The Critical Role of Basic Research in Cybersecurity"
+    ],
+    "64": [
+        "Privacy Seminar"
+    ],
+    "65": [
+        "Presidential Tours"
+    ],
+    "66": [
+        "CMU Alumni Awards 2024"
+    ],
+    "67": [
+        "Carnegie Museum of Art"
+    ],
+    "68": [
+        "Dinosaurs in Their Time"
+    ],
+    "69": [
+        "It serves as an environmental research center and field station"
+    ],
+    "70": [
+        "It is used for long-term studies of natural populations"
+    ],
+    "71": [
+        "The Office of Family Engagement or the CMU Family Weekend team"
+    ],
+    "72": [
+        "Mobile app privacy and data safety measures"
+    ],
+    "73": [
+        "An academic portfolio or transcript plus a list of textbooks used"
+    ],
+    "74": [
+        "The CMU Events App"
+    ],
+    "75": [
+        "Guided Campus Tours led by Tartan Ambassadors"
+    ],
+    "76": [
+        "2024-12-08T22:00:00+00:00"
+    ],
+    "77": [
+        "A session hosted by the CMU PE VC Club that introduces participants to investing and business fundamentals."
+    ],
+    "78": [
+        "2024-12-09T20:30:00+00:00"
+    ],
+    "79": [
+        "Industry Session 2"
+    ],
+    "80": [
+        "Almost Midnight Breakfast"
+    ],
+    "81": [
+        "Discover Tranquility: Yognidra Session"
+    ],
+    "82": [
+        "2024-12-11T19:30:00+00:00"
+    ],
+    "83": [
+        "A session on practicing Yognidra (non-sleep deep rest) for relaxation and meditation."
+    ],
+    "84": [
+        "TCC All Hands 1Y Meeting"
+    ],
+    "85": [
+        "A meeting intended for TCC staff to discuss organizational matters (description is brief)."
+    ],
+    "86": [
+        "CGSM Study Session | Accounting II"
+    ],
+    "87": [
+        "CGSM Study Session | Operations"
+    ],
+    "88": [
+        "Weekly Board Games"
+    ],
+    "89": [
+        "2024-12-14T18:00:00+00:00"
+    ],
+    "90": [
+        "Women's Club Lax Fall Practice"
+    ],
+    "91": [
+        "2024-12-14T21:30:00+00:00"
+    ],
+    "92": [
+        "2024-12-15T13:30:00+00:00"
+    ],
+    "93": [
+        "An event celebrating the end of finals with ice skating followed by pizza at a designated venue."
+    ],
+    "94": [
+        "State of Operations & General Management Recruiting"
+    ],
+    "95": [
+        "A recurring board games event."
+    ],
+    "96": [
+        "2025-01-01T13:00:00+00:00"
+    ],
+    "97": [
+        "2025-01-06T05:05:00+00:00"
+    ],
+    "98": [
+        "An event marking the opening of organization registration for The Winter FAIR."
+    ],
+    "99": [
+        "2025-01-11T18:00:00+00:00"
+    ],
+    "100": [
+        "They demonstrate Carnegie Mellon's commitment to diversity, innovation, and community engagement by offering a wide range of academic, social, and professional events."
+    ]
+}
