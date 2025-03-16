@@ -110,32 +110,23 @@ if __name__ == "__main__":
         vector_store = FAISS.from_documents(all_splits, embedding_model)
         vector_store.save_local(faiss_path)
     prompt = hub.pull("rlm/rag-prompt")
-    # new_template = (
-    #     "You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. "
-    #     "If you cannot find a direct match or complete answer, but notice partial matches or somewhat relevant information in the context, provide that partial information as the answer (even if it doesn’t perfectly match the question).If no relevant match is found in the context, respond with 'I don't know'"
-    #     "If a question contains multiple parts to the answer then seperate them with a semicolon."
-    #     "Restrict the response to the most relavent word or phrase for each answer such that the answer is accurate but brief.\n"
-    #     "Question: {question} \nContext: {context} \nAnswer:"
-    # )
     new_template = (
-        '''You are an assistant for question-answering tasks. Use the following pieces of 
-        retrieved context to answer the question. If there is a highly related answer you can use that. 
-        If you cannot find a direct match or complete answer, but notice partial matches or somewhat relevant information in the context, provide that partial information as the answer
-        If a question contains multiple parts to the answer then separate them with a semicolon.  
-        Keep it accurate.\n
-        Sample questions ans answers:
-        Q: Who is Pittsburgh named after?\n
-        A: William Pitt\n
-        Q: What famous machine learning venue had its first conference in Pittsburgh in 1980?
-        A: ICML\n
-        Q: What musical artist is performing at PPG Arena on October 13?\n
-        A: Billie Eilish\n
-        Question: {question} \nContext: {context} \nAnswer:'''
+        "You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If there is a highly related answer you can use that." 
+        "If you cannot find a direct match or complete answer, but notice partial matches or somewhat relevant information in the context, provide that partial information as the answer"
+        "If a question contains multiple parts to the answer then separate them with a semicolon. " 
+        "Keep it accurate and don't answer in sentences. Whatever your answer is return only the answer don't give the justification." 
+        "Sample questions and answers:"
+        "Q: Who is Pittsburgh named after?"
+        "A: William Pitt"
+        "Q: What famous machine learning venue had its first conference in Pittsburgh in 1980?"
+        "A: ICML"
+        "Q: What musical artist is performing at PPG Arena on October 13?"
+        "A: Billie Eilish"
+        "Question: {question} Context: {context} Answer:"
     )
     prompt.messages[0].prompt.template = new_template
 
-    # # Print updated template to confirm (optional)
-    # print("New template:\n", prompt)
+    print("New template:\n", prompt)
 
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
@@ -144,5 +135,3 @@ if __name__ == "__main__":
     input_csv = "questions2.csv"  
     output_json = "answers3.json"    
     answer_questions(input_csv, output_json)
-    with open("retrieved_docs.json", "w", encoding="utf-8") as f:
-        json.dump(docs_arr, f, ensure_ascii=False, indent=2)
