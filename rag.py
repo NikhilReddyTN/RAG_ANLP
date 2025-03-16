@@ -97,7 +97,7 @@ def answer_questions(question_file: str, answer_file: str):
         json.dump(answers, f, indent=4)
 
 if __name__ == "__main__":
-    docs = load_documents("./docs")
+    docs = load_documents("./data")
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     all_splits = text_splitter.split_documents(docs)
 
